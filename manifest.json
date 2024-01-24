@@ -1,0 +1,13 @@
+{
+    "name": "google-extension-test",
+    "description": "해당 url에 달린 댓글들을 불러오는 것",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_title": "...",
+        "default_popup": "popup.html"
+      }
+}
